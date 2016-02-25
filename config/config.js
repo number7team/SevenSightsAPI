@@ -25,13 +25,13 @@ if (process.env.INSIGHT_NETWORK === 'livenet') {
   env = 'livenet';
   db = home;
   port = '7000';
-  b_port = '6094';
+  b_port = '6095';
   p2p_port = '6093';
 } else {
   env = 'testnet';
   db = home + '/testnet';
   port = '7001';
-  b_port = '16094';
+  b_port = '16095';
   p2p_port = '16093';
 }
 port = parseInt(process.env.INSIGHT_PORT) || port;
