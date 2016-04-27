@@ -7,11 +7,20 @@
       ]
    },
    {
-      "poolName":"p2pool/solo",
+      "poolName":"solo/other",
       "url":"",
       "searchStrings":[
          "P2SH",
          "/P2SH/"
       ]
+   },
+   {
+      "poolName":"P2pool",
+      "url":"http://coinbalance.co:7778",
+      "searchStrings":[
+         "CoinBalance",
+         "/CoinBalance/"
+      ]
    }
+
 ]

@@ -142,6 +142,7 @@ exports.list = function(req, res) {
               height: info.height,
               size: info.size,
               hash: b.hash,
+              difficulty: info.difficulty,
               time: b.ts || info.time,
               txlength: info.tx.length,
               poolInfo: info.poolInfo
